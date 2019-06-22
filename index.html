@@ -5,25 +5,12 @@
         <title>Name Change</title>
         <link rel="stylesheet" href="namechange.css">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
+        <script src="namechange.js" defer></script>
 
 </head>
 <html>
-        <script type="text/javascript">
-       
-
-       function init(){
-        var nameInput = document.getElementById("inputsection__text");
-
-        nameInput.addEventListener("input", function(e){
-        var nameInput = document.getElementById("inputsection__text");
-        var logName = document.getElementById("formsection__heading");        
-        logName.innerHTML = nameInput.value;
-         });
- }      
-      
-
-        </script>
-           
+        
+        
             <body onload="init()">
                 <div class="inputsection">
                     <h1 class="inputsection__heading">Whats your name?</h1>
